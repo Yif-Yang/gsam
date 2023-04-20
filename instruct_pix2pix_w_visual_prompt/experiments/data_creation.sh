@@ -1,0 +1,1 @@
+~/azcopy copy --recursive ~/instruct_pix2pix_w_visual_prompt/dataset_creation/output "https://ussclowpriv100data.blob.core.windows.net/v-yashengsun/instruct_pix2pix_w_visual_prompt/dataset_creation/?sv=2021-10-04&st=2023-02-02T13%3A21%3A08Z&se=2024-05-03T13%3A21%3A00Z&sr=c&sp=racwdxltf&sig=vV5fXzUKmYaOdfapdzpk82lkU5eKwMYuP14qjD4akGs%3D"

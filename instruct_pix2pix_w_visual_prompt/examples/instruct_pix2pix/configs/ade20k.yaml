@@ -1,0 +1,16 @@
+phase: 'train' # remeber to modify it to test
+isTrain: True
+dataset_mode: 'ade20k'
+no_pairing_check: True
+real_reference_probability: 1.0
+hard_reference_probability: 0.3
+video_like: True
+load_size: 256
+crop_size: 256
+preprocess_mode: 'resize_and_crop'
+max_dataset_size: 99999999999
+no_flip: True
+dataroot: '/data/yashengsun/local_storage/vision_in_context_caoyue/ade20k/images'
+task_description: 'translate it a realistic image'
+inverse_task_description: 'translate it to segmentation mask'
+label_nc: 182

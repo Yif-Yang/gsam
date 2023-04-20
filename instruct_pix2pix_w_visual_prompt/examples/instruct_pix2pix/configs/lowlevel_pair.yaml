@@ -1,0 +1,7 @@
+phase: 'train' # remeber to modify it to test
+isTrain: True
+input_size: [512, 256]
+min_random_scale: 0.3
+task_description: 'translate it a realistic image'
+inverse_task_description: 'translate it to segmentation mask'
+dataroot: '/data/yashengsun/local_storage/vision_in_context_caoyue/'

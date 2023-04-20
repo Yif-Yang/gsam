@@ -1,0 +1,11 @@
+phase: 'train' # remeber to modify it to test
+isTrain: True
+dataset_mode: 'styleclip'
+video_like: True
+load_size: 256
+preprocess_mode: 'resize_and_crop'
+max_dataset_size: 99999999999
+no_flip: True
+dataroot: '/data/yashengsun/local_storage/vision_in_context_caoyue/styleclip_pairdataset'
+task_description: 'apply similar transformation'
+inverse_task_description: 'apply similar transformation'
