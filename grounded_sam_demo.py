@@ -262,6 +262,7 @@ if __name__ == "__main__":
         # print(f"save_mask_data percent: {save_mask_data_percent}")
 
 
+    args.gpu_appendix += 8
     failed_dirs = []  # 创建一个空列表，以记录所有失败的文件夹
     print('going into for loop')
     for image_path in instance_images_path:
